@@ -88,6 +88,8 @@ El script crea un archivo de mundo Webots (.wbt) que representa el laberinto. Ca
 ## Algoritmo A*
 Este algoritmo permite que un robot e-puck en Webots se mueva hacia una meta utilizando una ruta óptima calculada con el algoritmo A*.
 
+[path_follower.webm](https://github.com/fervh/Webots-Simulator/assets/55854056/836a29f1-5e6e-4470-bc68-1dae830199a0)
+
 ### Funcionalidades
 
 - Carga un laberinto desde un archivo CSV que representa el entorno.
@@ -112,6 +114,8 @@ Este algoritmo está basado en el trabajo realizado en el repositorio [ROS-2-Pat
 ## Algoritmo Bug2
 El algoritmo Bug 2 es un algoritmo de navegación para robots móviles diseñado para encontrar un camino alrededor de obstáculos para alcanzar una posición objetivo en un entorno desconocido.
 
+[bug2.webm](https://github.com/fervh/Webots-Simulator/assets/55854056/a505e40d-5b11-4ae4-bba4-d69325a96f77)
+
 ### Pros:
 
 - Es un algoritmo simple y eficiente para la navegación de robots móviles.
@@ -135,5 +139,7 @@ El algoritmo Bug 2 es una solución simple y eficiente para la navegación de ro
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+
 
 
