@@ -43,6 +43,10 @@ def save_maze_to_csv(maze, filename):
             writer.writerow(row)
 
 def generar_mapa_webots(archivo_entrada):
+    # This function is made by: Author: Juan G Victores
+    # CopyPolicy: released under the terms of the LGPLv2.1
+    # URL: <https://github.com/roboticslab-uc3m/webots-tools>
+
     # Cargar datos del archivo CSV
     datos_entrada = genfromtxt(archivo_entrada, delimiter=',')
     print(datos_entrada)
