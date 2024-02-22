@@ -83,8 +83,9 @@ El script crea un archivo de mundo Webots (.wbt) que representa el laberinto. Ca
 ##
 ##
 ## Algoritmos:
+##
 
-### Algoritmo A*
+## Algoritmo A*
 Este algoritmo permite que un robot e-puck en Webots se mueva hacia una meta utilizando una ruta óptima calculada con el algoritmo A*.
 
 ### Funcionalidades
@@ -94,12 +95,12 @@ Este algoritmo permite que un robot e-puck en Webots se mueva hacia una meta uti
 - Controla el robot e-puck en Webots para que siga la ruta óptima generada por el algoritmo A*.
 - Muestra el laberinto con la ruta óptima marcada a través de la consola.
 
-#### Pros:
+### Pros:
 
 - Garantiza la optimización de la ruta.
 - Garantiza que el robot alcance la meta.
 
-#### Cons:
+### Cons:
 
 - Requiere un mapa del entorno.
 
@@ -108,24 +109,20 @@ Este algoritmo permite que un robot e-puck en Webots se mueva hacia una meta uti
 ## Basado en
 Este algoritmo está basado en el trabajo realizado en el repositorio [ROS-2-Path-Planning](https://github.com/fervh/ROS-2-Path-Planning).
 
-### Algoritmo Bug2
+## Algoritmo Bug2
 El algoritmo Bug 2 es un algoritmo de navegación para robots móviles diseñado para encontrar un camino alrededor de obstáculos para alcanzar una posición objetivo en un entorno desconocido.
 
-#### Pros:
+### Pros:
 
 - Es un algoritmo simple y eficiente para la navegación de robots móviles.
 - No requiere un mapa del entorno.
 
-#### Cons:
+### Cons:
 
 - No garantiza la optimización de la ruta.
 - No garantiza que el robot alcance la meta.
 
 El algoritmo consta de dos fases principales: la fase de seguimiento de la pared y la fase de movimiento directo hacia el objetivo.
-
-## Algoritmo Bug 2
-
-El algoritmo Bug 2 es un algoritmo de navegación utilizado por robots móviles para encontrar una ruta alrededor de un obstáculo hacia una posición objetivo. Consiste en dos fases principales: la fase de seguimiento de la pared y la fase de movimiento hacia la meta.
 
 - **Fase de Seguimiento de la Pared**: En esta fase, el robot sigue el contorno del obstáculo para encontrar una posición donde pueda continuar moviéndose hacia la meta sin obstáculos. El robot utiliza sensores para detectar la pared y ajusta su dirección de acuerdo a ciertos criterios predefinidos.
 
