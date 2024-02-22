@@ -76,7 +76,7 @@ líneas (NOMBRE)= X = 40
 columnas (APELLIDO)= Y = 20
 ```
 
-![mapa](media/mapa.png)
+![mapa](media/map.png)
 
 El script crea un archivo de mundo Webots (.wbt) que representa el laberinto. Cada obstáculo en el laberinto se convierte en un objeto de caja sólida en el mundo Webots.
 
